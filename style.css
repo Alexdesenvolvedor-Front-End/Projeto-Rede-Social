@@ -7,16 +7,58 @@
 
 
 
-main{
-    height: 100vh;
-    background-color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+body {
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+
+
 }
 
 
-.cellphone{
- background-image: url();
-   
+
+
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+
+
+
+
+
+
+.cellphone {
+    background-image: url(imagens/iphone.png);
+    background-repeat: no-repeat;
+    width: 325px;
+    height: 650px;
+
+}
+
+
+
+
+
+
+
+
+iframe.home {
+    position: relative;
+    top: 94px;
+    left: 33px;
+    width: 257px;
+    height: 469px;
+
 }
