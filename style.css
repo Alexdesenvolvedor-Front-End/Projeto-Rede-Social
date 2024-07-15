@@ -13,11 +13,31 @@ body {
     /*Aqui eu apliquei a imagem no html, apliquei também um background size e background position para cobrir e posicionar o elemento*/
     background-size: cover;
     background-position: center;
+    
 
 
 
 
 }
+
+
+
+.botoes img{
+  
+   
+}
+
+
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+   
+ 
+   
+}
+
 
 
 
