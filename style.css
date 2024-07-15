@@ -10,6 +10,7 @@
 
 body {
     background-image: url(imagens/fundo-madeira.jpg);
+    /*Aqui eu apliquei a imagem no html, apliquei também um background size e background position para cobrir e posicionar o elemento*/
     background-size: cover;
     background-position: center;
 
@@ -24,6 +25,7 @@ body {
 
 main {
     height: 100vh;
+    /*Aqui apliquei essas configurações para dar uma altura de 100% no main*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,9 +43,13 @@ main {
 
 .cellphone {
     background-image: url(imagens/iphone.png);
+    /*Aqui apliquei a imagem de fundo do celular dentro do meu iframe */
     background-repeat: no-repeat;
+    /*Apliquei essa configuração para a imagem não se repetir*/
     width: 325px;
+    /*Apliquei uma largura na minha caixa*/
     height: 650px;
+    /*Apliquei uma altura na minha caixa*/
 
 }
 
@@ -56,8 +62,10 @@ main {
 
 iframe.home {
     position: relative;
+    /*Aqui apliquei um position relative para movientar a imagem de dentro do celular*/
     top: 94px;
     left: 33px;
+    /*Essas foram as confugurações padrão para imagem de dentro do celular.*/
     width: 257px;
     height: 469px;
 
