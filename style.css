@@ -1,42 +1,29 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
 
 
+
+
+
+
+html,
 body {
-    background-image: url(imagens/fundo-madeira.jpg);
-    /*Aqui eu apliquei a imagem no html, apliquei também um background size e background position para cobrir e posicionar o elemento*/
-    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
     background-position: center;
-    
-
+    background-size: cover;
 
 
 
 }
 
-
-
-.botoes img{
-  
-   
-}
-
-
-
-.botoes{
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-   
- 
-   
-}
 
 
 
@@ -45,12 +32,7 @@ body {
 
 main {
     height: 100vh;
-    /*Aqui apliquei essas configurações para dar uma altura de 100% no main*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
+    position: relative;
 
 }
 
@@ -62,31 +44,35 @@ main {
 
 
 .cellphone {
+    position: absolute;
+    width: 320px;
+    height: 640px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-image: url(imagens/iphone.png);
-    /*Aqui apliquei a imagem de fundo do celular dentro do meu iframe */
     background-repeat: no-repeat;
-    /*Apliquei essa configuração para a imagem não se repetir*/
-    width: 325px;
-    /*Apliquei uma largura na minha caixa*/
-    height: 650px;
-    /*Apliquei uma altura na minha caixa*/
+
 
 }
 
 
 
 
+.botoes {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 2em;
+    padding-top: 1.8em;
+    gap: 1em;
+}
 
 
 
 
-iframe.home {
-    position: relative;
-    /*Aqui apliquei um position relative para movientar a imagem de dentro do celular*/
-    top: 94px;
-    left: 33px;
-    /*Essas foram as confugurações padrão para imagem de dentro do celular.*/
-    width: 257px;
-    height: 469px;
 
+.botoes img {
+    width: 50px;
+    border-radius: 50%;
 }
