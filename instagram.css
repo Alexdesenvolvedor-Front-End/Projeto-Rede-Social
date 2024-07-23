@@ -8,8 +8,9 @@
 
 
 ::-webkit-scrollbar {
+    /*Aqui apliqeui essa configuração para ocultar a barra de tarefaas tanto horizontal como na vertical*/
     width: 0;
-   
+
 }
 
 
@@ -23,6 +24,7 @@ body {
 
 a {
     display: block;
+    /*Aqui apliquei essas configurações em toda minha tag a*/
     background-color: darkred;
     padding: 18px;
     text-align: center;
@@ -43,6 +45,6 @@ a:hover {
 
 img {
     width: 100vw;
-   
- 
+    /*Aqui apliquei essa configuração para dar uma largura de 100% na iamge dentro do iframe/celular*/
+
 }

@@ -13,9 +13,11 @@
 
 html,
 body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100vw;
     height: 100vh;
     background-image: url(./imagens/fundo-madeira.jpg);
+    /*Aqui apliquei uma imaagem de fundo da interface*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -26,14 +28,9 @@ body {
 
 
 
-
-
-
-
-main {
-    height: 100vh;
-    position: relative;
-
+.box {
+    padding: 10px;
+    /*Aqui apliquei um padding na imagem apple*/
 }
 
 
@@ -43,13 +40,41 @@ main {
 
 
 
+
+.apple {
+    width: 20px;
+    /*Aqui apliquei uma larguar na imagem apple*/
+    padding-top: 10px;
+}
+
+
+
+
+
+main {
+    height: 100vh;
+    /*Aqui apliquei uma altura para o main*/
+    position: relative;
+    /*Aqui apliquei um position relative para movimentar uam div*/
+
+}
+
+
+
+
+
 .cellphone {
     position: absolute;
     width: 320px;
+    /*Aqui apliquei uma largura na imagem do celular*/
     height: 640px;
+    /*Aqui apliquei uma altura na imagem do celular*/
     top: 50%;
+    /*Aqui apliquei 50% para imagem ficar no topo da tela*/
     left: 50%;
+    /*Aqui apliquei 50% left para imagem ficar ao lado esquerdo*/
     transform: translate(-50%, -50%);
+    /*Aqui apliquei essa função para movera imagem horizontamente e verticalmente com base no seu próprio tamanho*/
     background-image: url(imagens/iphone.png);
     background-repeat: no-repeat;
 
@@ -63,6 +88,7 @@ main {
 .socialnetwork {
     display: flex;
     flex-direction: column;
+    /*Aqui apliquei essas configurações no logo da interface*/
     text-align: right;
     margin-right: 2em;
     padding-top: 1.8em;
@@ -74,6 +100,7 @@ main {
 
 
 .socialnetwork img {
+    /*Aqui apliquei essas confiurações no logo da interface*/
     width: 50px;
     border-radius: 50%;
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.658);
@@ -83,6 +110,7 @@ main {
 
 
 .socialnetwork img:hover {
+    /*Aqui apliquei essas confiurações no logo da interface*/
     border: 2px solid rgba(255, 255, 255, 0.637);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.658);
@@ -92,7 +120,10 @@ main {
 
 
 
+
+
 iframe#home {
+    /*Aqui apliquei essas configurações em todo o iframe*/
     position: relative;
     top: 94px;
     left: 33px;
